@@ -3,56 +3,338 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Website Icon" type="png" href="img/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Projeto Eco-Ilhas</title>
+
+<!-- FONTES -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<!-- FONTES -->
+
+
 </head>
-<body>
+<body class="container-fluid">
+  
+<!-------------------------------- INTRODUÇÃO -------------------------------------->
+
+
     <header>
+    
         <h1>EcoIslandHub</h1>
-        <div>
-            <img src="img/ilhas.png" alt="Ilhas no oceano" class="ilhas">
-            <div class="texto"><h2>Descubra sobre Eco-Ilhas com o EcoIslandHub</h2></div>
-            <div class="texto2"><p>Bem-Vindo ao mundo das Eco-Ilhas</p></div>
+       
+
+        <div class="text-center">
+        <div class="container-fluid" >
+        <div id="carouselExample" class="carousel slide">
+          
+          <div class="carousel-inner">
+            <div class="card-img-overlay">
+              <div class="text-center">
+              <div class="text-lg-end">
+              
+            </div>
+            </div>
+            </div>
+            <div class="carousel-item active">
+              <img src="img/ILHA1.jpg" class="img-fluid" alt="Ilhas" id="ilhas">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bem Vindo Ao Futuro</h5>
+                <p id="ph5">Caminhe de mãos dadas a sustentabilidade.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/ILHA2.jpg" class="img-fluid" alt="Ilhas" id="ilhas">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bem Vindo A Evolução</h5>
+                <p id="ph5">O Próximo passo para o Futuro.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/ILHA4.jpg" class="img-fluid" alt="Ilhas" id="ilhas">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bem Vindo Ao EcoIslandHub</h5>
+                <p id="ph5">A proteção nescessaria para Futuras Gerações.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" id="custon-icon-cour"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" id="custon-icon-cour"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <div class="container-fluid" id="overlay"></div>
         </div>
-        <nav>
-                <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-                </div>
-                <ul class="nav-list">
-                <li><a href="#">Início</a></li>
-                <li><a href="####">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
-                </ul>
-                <button class="cssbuttons-io-button">
-                    <a href="#">
-                    <div class="icon">
-                        <svg
-                        height="24"
-                        width="24"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path d="M0 0h24v24H0z" fill="none"></path>
-                        <path
-                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                        fill="currentColor"
-                        ></path>
-                    </svg>
+      
+      </div>
+    </div>
+        
+            
+     
+            <!-- <div class="text-center">
+             
+          <div class="h2" id="texto">Descubra sobre Eco-Ilhas com o EcoIslandHub</div>
+          <p class="h3" id="texto2">Bem-Vindo ao mundo das Eco-Ilhas.</p>
+        </div> -->
+       
+    
+
+
+<!-------------------------------- INTRODUÇÃO --------------------------------->      
+<!--Comentarios:
+- 
+--->
+<!--------------------------------NAV BAR-------------------------------------->
+
+<div class="container-fluid">
+      <div class="container mt-5">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom" id="navexp">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navcollapse">
+            
+            <span class="navbar-toggler-icon"></span>
+          
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+         
+            <ul class="navbar-nav w-100 d-flex justify-content-between">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Introdução">
+                        Introdução
+                        <br>
+                        <small>O que são?</small>
                     </a>
-                    </div>
-                </button>
-            </nav>
-        </header>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Desafios">
+                        Problemática
+                        <br>
+                        <small>O que enfrentamos?</small>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Abordagem">
+                        Resultados
+                        <br>
+                        <small>O que esperamos?</small>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Conclusão">
+                        Conclusão
+                        <br>
+                        <small>O que realizamos?</small>
+                    </a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                    <a class="nav-link arrow-btn" href="#">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+  </div>
+</div>
+    </header>
         <main></main>
         
     </header>
+<!-------------------------------- NAV BAR -------------------------------------->
+<!--Comentarios:
+- 
+--->
+<!--------------------------------- GRID ---------------------------------------->
+    <div class="container-fluid">
+<div class="container mt-5">
+  <div class="text-center">
+   <h2>Um Novo Mundo</h2>
+  </div>
+    <div class="row">
+      
+      <div class="col-md-auto mb-4">
+        <div class="card custom-card">
+        <div class="p-0 "><img src="img/reimagineofuturo.png" class="img-fluid" alt="Reimagine o Futuro">
+          <div class="card-body">
+            <h5 class="card-title">Reimagine o Futuro</h5>
+        </div>
+        </div>
+      </div>
+        
+      </div>
+    
+
+
+      <div class="col-sm-auto mb-4">
+        <div class="card custom-card">
+        <div class="p-0 "><img src="img/resultados.png" class="img-fluid" alt="Resultados">
+          <div class="card-body">
+            <h5 class="card-title">Resultados</h5>
+        </div>
+        </div>
+      </div>
+
+<div class="row">
+        <div class="col-md-auto mb-4">
+          <div class="card custom-card">
+          <div class="p-0  "><img src="img/ummundomaiseco.png" class="img-fluid" alt="Um Mundo Mais ECO">
+            <div class="card-body">
+              <h5 class="card-title">Um Mundo Mais ECO</h5>
+          </div>
+          </div>
+        </div>
+        </div> 
+      </div>
+      </div>
+
+      <div class="col-md-auto mb-4">
+        <div class="card custom-card">
+        <div class="p-0"><img src="img/alemdosoceanos.png" class="img-fluid" alt="Além dos Oceanos">
+          <div class="card-body">
+            <h5 class="card-title">Além dos Oceanos</h5>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-md-auto mb-4">
+        <div class="card custom-card">
+        <div class="p-0 "><img src="img/indomaisfundo.png" class="img-fluid" alt="Indo Mais Fundo">
+          <div class="card-body">
+            <h5 class="card-title">Indo Mais Fundo</h5>
+        </div>
+        </div>  
+      </div>
+<div class="row">
+        <div class="col-md-auto mb-4">
+          <div class="card custom-card">
+          <div class="p-0  "><img src="img/domacroaomicro.png" class="img-fluid" alt="Do Macro ao Micro">
+            <div class="card-body">
+              <h5 class="card-title">Do Macro ao Micro</h5>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+ <!-------------------------------- GRID -------------------------------------->
+<!--Comentarios:
+- 
+--->
+<!-------------------------------- CONTAINER DESTACADO -------------------------------------->
+<div class="container-fluid">
+<div class="text-center">
+<h2  id="Introdução">Descubra o poder das Eco-Ilhas</h2>
+
+  <div class="container-verde mt-5">
+    <div class="card-verde mb-3">
+      <div class="row no-gutters">
+        <div class="col-md-4" dir="rtl">
+          <img src="img/ilhaCard1.png" class="card-img" alt="Imagem da Ilha">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <div>
+              <b class="card-title2">Um Oceano de Possibilidades</b>
+            </div><br>
+           <div>
+            <p class="card-text" dir="ltr">As Eco-Ilhas são uma solução inovadora e sustentável para proteger os mares e o meio ambiente.
+               Estes pequenos oásis ecológicos têm como objetivo restaurar ecossistemas marinhos degradados, promovendo a biodiversidade e contribuindo 
+               para a saúde dos oceanos. A criação de Eco-Ilhas não só oferece um refúgio seguro para a vida marinha, mas também sensibiliza a sociedade 
+               sobre a importância da preservação ambiental.</p>
+           </div> 
+          </div>
+          <hr>
+          <div class="card-body" dir="rtl">
+            <div>
+              <b class="card-title2" id="Desafios">Desafios que Nossos Oceanos Enfrentam</b>
+            </div><br>
+           <div>
+            <p class="card-text" dir="rtl">Os oceanos estão enfrentando uma crise sem precedentes. 
+              A poluição, a pesca excessiva e as mudanças climáticas estão destruindo habitats marinhos cruciais, 
+              resultando na perda de biodiversidade e no declínio das populações de espécies marinhas. Além disso, 
+              o aumento de resíduos plásticos nos mares tem impactos devastadores sobre a vida marinha e os ecossistemas. 
+              É urgente encontrar soluções para reverter esses danos e proteger nossos oceanos</p>
+           </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br><br><br>
+  <h2>Eco-Ilhas: A Solução Sustentável</h2>
+  <div class="container-branco mt-5" dir="rtl">
+    <div class="card-branco mb-3">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="img/ilhaCard2.png" class="card-img" alt="Imagem da Ilha">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <div dir="ltr">
+              <b class="card-title2" id="Abordagem">Uma Abordagem Inovadora</b>
+            </div><br>
+           <div>
+            <p class="card-text" dir="ltr">As Eco-Ilhas surgem como uma resposta prática e eficaz a esses desafios. 
+              Elas são estruturas flutuantes feitas de materiais sustentáveis que servem como habitats artificiais para 
+              diversas formas de vida marinha. Essas ilhas podem ser instaladas em áreas estratégicas para promover a recuperação de 
+              ecossistemas degradados, melhorar a qualidade da água e fornecer refúgios seguros para peixes, 
+              corais e outras espécies marinhas.</p>
+           </div> 
+          </div>
+          <hr>
+          <div class="card-body" dir="rtl">
+            <div>
+              <b class="card-title2" id="Conclusão">Como Funcionam as Eco-Ilhas</b>
+            </div><br>
+           <div>
+            <p class="card-text" dir="rtl">O projeto Eco-Ilhas envolve a construção e instalação de ilhas flutuantes 
+              em locais previamente selecionados com base em critérios ecológicos e ambientais. Cada ilha é projetada para 
+              imitar os habitats naturais, utilizando materiais recicláveis e técnicas de engenharia ecológica. As Eco-Ilhas 
+              são equipadas com plantas aquáticas, corais artificiais e estruturas submersas que atraem e sustentam a vida marinha. 
+              Além disso, o projeto inclui monitoramento contínuo e pesquisa científica para avaliar os impactos ambientais e a eficácia 
+              das ilhas</p>
+           </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-------------------------------- CONTAINER DESTACADO -------------------------------------->
+ 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="mobile-navbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+<footer>
+  <div class="footerdv">
+    <div class="footer-text">
+      <h3>EcoIslandHub</h3>
+      <p>Uma forma de salvar os oceanos</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
+
+
+
+
